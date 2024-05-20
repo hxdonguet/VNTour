@@ -143,7 +143,7 @@ fun HomeHeader(modifier: Modifier = Modifier, user: User, navigateToAboutMe: () 
         AsyncImage(
             model = ImageRequest.Builder(LocalContext.current)
                 .data(user.avatarUrl)
-                .error(R.drawable.temot)
+                .error(R.drawable.default_user)
                 .build(),
             contentScale = ContentScale.Crop,
             modifier = Modifier

@@ -200,10 +200,10 @@ fun ProfileEditPage(
                         .clip(CircleShape),
                     model = ImageRequest.Builder(context)
                         .data(avatarUrl)
-                        .error(R.drawable.temot)
+                        .error(R.drawable.default_user)
                         .crossfade(true)
                         .build(),
-                    placeholder = painterResource(R.drawable.temot),
+                    placeholder = painterResource(R.drawable.default_user),
                     contentDescription = stringResource(R.string.user_avatar),
                     contentScale = ContentScale.Crop,
                 )
@@ -366,10 +366,10 @@ fun ProfileViewPage(
                             .clip(CircleShape),
                         model = ImageRequest.Builder(context)
                             .data(user.avatarUrl)
-                            .error(R.drawable.temot)
+                            .error(R.drawable.default_user)
                             .crossfade(true)
                             .build(),
-                        placeholder = painterResource(R.drawable.temot),
+                        placeholder = painterResource(R.drawable.default_user),
                         contentDescription = stringResource(R.string.user_avatar),
                         contentScale = ContentScale.Crop,
                     )
