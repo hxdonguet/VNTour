@@ -130,4 +130,5 @@ enum class TourPages constructor(
     Tour(icon = { Icons.Outlined.Place }, selectedIcon = { Icons.Filled.Place }),
     Library(icon = { Icons.Outlined.BookmarkBorder }, selectedIcon = { Icons.Filled.Bookmark }),
     Profile(icon = { Icons.Outlined.Person }, selectedIcon = { Icons.Filled.Person })
+    
 }

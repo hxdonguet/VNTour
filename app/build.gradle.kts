@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     kotlin("kapt")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -53,6 +54,8 @@ android {
 
 dependencies {
 
+    implementation("com.google.firebase:firebase-auth:23.0.0")
+    implementation("com.google.firebase:firebase-database:21.0.0")
     val roomVersion = "2.6.0"
 
     implementation("androidx.room:room-runtime:$roomVersion")
